@@ -1,0 +1,1969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#faf6ef">
+
+<meta name="description" content="Allure Makeovers — Luxury bridal makeup, soft glam, special occasion makeup and professional makeup training in Abuja, Nigeria.">
+
+<title>Allure Makeovers | The Art of Timeless Beauty</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* GLOBAL SETTINGS */
+
+:root {
+  --cream: #faf6ef;
+  --sand: #eee4d7;
+  --gold: #bd9256;
+  --gold-light: #d8bc91;
+  --espresso: #261a13;
+  --brown: #5a4030;
+  --muted: #807367;
+  --white: #fffdf9;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'DM Sans', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--espresso);
+  font-family: var(--sans);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.container {
+  width: min(1160px, 90%);
+  margin: auto;
+}
+
+.eyebrow {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(38px, 5vw, 62px);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.section-description {
+  max-width: 570px;
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 25px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: white;
+  border: 1px solid var(--gold);
+}
+
+.btn-gold:hover {
+  background: var(--espresso);
+  border-color: var(--espresso);
+}
+
+.btn-outline {
+  border: 1px solid var(--gold);
+  color: var(--espresso);
+}
+
+.btn-outline:hover {
+  background: var(--gold);
+  color: white;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  background: var(--cream);
+  border-bottom: 1px solid rgba(189,146,86,.18);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.logo {
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.logo span {
+  display: block;
+  color: var(--gold);
+  font-family: var(--sans);
+  font-size: 9px;
+  letter-spacing: 5px;
+  margin-top: 7px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.nav-links a {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--brown);
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--espresso);
+  font-size: 27px;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 650px;
+  align-items: center;
+  background: var(--cream);
+}
+
+.hero-content {
+  padding: 80px 8% 80px 12%;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(55px, 7vw, 88px);
+  line-height: .98;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.hero h1 span {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.hero-content p {
+  color: var(--muted);
+  font-size: 14px;
+  max-width: 440px;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  height: 650px;
+  overflow: hidden;
+  background: var(--sand);
+}
+
+.hero-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* TRUST STRIP */
+
+.trust-strip {
+  background: var(--espresso);
+  color: var(--gold-light);
+  padding: 23px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 45px;
+  text-align: center;
+}
+
+.trust-strip span {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* VM WEB STUDIO LOGO */
+
+.studio-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.studio-credit img {
+  width: 48px;
+  height: 48px;
+  max-width: 48px;
+  object-fit: contain;
+  flex: 0 0 48px;
+  border-radius: 50%;
+}
+
+</style>
+<style>
+
+.content-section {
+  padding: 105px 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 75px;
+  align-items: center;
+}
+
+.about-image {
+  height: 570px;
+  overflow: hidden;
+  background: var(--sand);
+}
+
+.about-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.about-content h2 {
+  font-family: var(--serif);
+  font-size: clamp(40px, 5vw, 59px);
+  font-weight: 500;
+  line-height: 1.08;
+  margin-bottom: 25px;
+}
+
+.about-content p {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.about-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.about-details div {
+  border-top: 1px solid var(--gold-light);
+  padding-top: 14px;
+}
+
+.about-details strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.about-details span {
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* SERVICES */
+
+.services {
+  background: var(--sand);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.service-card {
+  background: var(--white);
+  overflow: hidden;
+}
+
+.service-card img {
+  height: 310px;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform .5s ease;
+}
+
+.service-card:hover img {
+  transform: scale(1.04);
+}
+
+.service-card-content {
+  padding: 27px;
+}
+
+.service-card h3 {
+  font-family: var(--serif);
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.text-link {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+</style>
+<style>
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.portfolio-item {
+  position: relative;
+  height: 390px;
+  overflow: hidden;
+  background: var(--sand);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform .6s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.06);
+}
+
+.portfolio-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 17px 18px;
+  color: white;
+  background: linear-gradient(transparent, rgba(25,15,10,.85));
+}
+
+.portfolio-caption span {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
+
+.portfolio-caption h3 {
+  font-family: var(--serif);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.portfolio-note {
+  text-align: center;
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 25px;
+}
+
+/* ACADEMY */
+
+.academy {
+  background: var(--espresso);
+  color: var(--white);
+}
+
+.academy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65px;
+  align-items: center;
+}
+
+.academy-content h2 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 5vw, 65px);
+  line-height: 1.05;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.academy-content p {
+  color: #c9b9aa;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.academy-list {
+  margin: 25px 0 32px;
+  list-style: none;
+}
+
+.academy-list li {
+  border-bottom: 1px solid rgba(255,255,255,.13);
+  padding: 13px 0;
+  font-size: 13px;
+  color: #e8ddd2;
+}
+
+.academy-list li::before {
+  content: "✦";
+  color: var(--gold-light);
+  margin-right: 12px;
+}
+
+.academy-image {
+  height: 510px;
+  overflow: hidden;
+  background: var(--brown);
+}
+
+.academy-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* DESTINATION */
+
+.destination {
+  text-align: center;
+  background: var(--sand);
+}
+
+.destination-box {
+  max-width: 800px;
+  margin: auto;
+}
+
+.destination-box h2 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 6vw, 70px);
+  font-weight: 500;
+  line-height: 1.05;
+  margin-bottom: 22px;
+}
+
+.destination-box p {
+  color: var(--muted);
+  font-size: 14px;
+  max-width: 620px;
+  margin: 0 auto 30px;
+}
+
+.destination-label {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+</style>
+<style>
+
+.booking {
+  background: var(--cream);
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 65px;
+  align-items: start;
+}
+
+.booking-info h2 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 5vw, 62px);
+  line-height: 1.05;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.booking-info p {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.contact-detail {
+  border-top: 1px solid var(--gold-light);
+  padding: 17px 0;
+}
+
+.contact-detail span {
+  display: block;
+  color: var(--gold);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact-detail strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.booking-form {
+  background: var(--white);
+  padding: 38px;
+  box-shadow: 0 15px 50px rgba(38,26,19,.06);
+}
+
+.booking-form h3 {
+  font-family: var(--serif);
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-intro {
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 13px;
+  background: var(--cream);
+  border: 1px solid #e8dfd3;
+  outline: none;
+  color: var(--espresso);
+  font-size: 13px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--gold);
+}
+
+.form-group textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.booking-form button {
+  width: 100%;
+}
+
+.form-notice {
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+/* INSTAGRAM CTA */
+
+.instagram-cta {
+  background: var(--sand);
+  text-align: center;
+  padding: 75px 5%;
+}
+
+.instagram-cta h2 {
+  font-family: var(--serif);
+  font-size: clamp(38px, 5vw, 55px);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.instagram-cta p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  background: var(--espresso);
+  color: var(--white);
+  padding: 55px 0 25px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 45px;
+  padding-bottom: 40px;
+}
+
+.footer-brand {
+  font-family: var(--serif);
+  font-size: 31px;
+  margin-bottom: 15px;
+}
+
+.footer-brand span {
+  color: var(--gold-light);
+}
+
+.footer-grid p {
+  color: #c9b9aa;
+  font-size: 12px;
+  max-width: 330px;
+}
+
+.footer-grid h4 {
+  color: var(--gold-light);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #d7c9bb;
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  color: var(--gold-light);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  text-align: center;
+  color: #bcae9f;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+@media (max-width: 850px) {
+
+  .booking-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .booking-form {
+    padding: 23px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+}
+
+</style>
+<style>
+
+@media (max-width: 850px) {
+  .nav > .btn {
+  display: none;
+}
+
+  .nav-links {
+    position: absolute;
+    top: 82px;
+    left: 0;
+    width: 100%;
+    background: var(--cream);
+    padding: 25px 5%;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-top: 1px solid var(--sand);
+    box-shadow: 0 15px 25px rgba(0,0,0,.06);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav > .btn {
+    padding: 11px 14px;
+    font-size: 9px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    padding: 75px 7%;
+  }
+
+  .hero-image {
+    height: 520px;
+  }
+
+  .about-grid,
+  .academy-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-image {
+    height: 480px;
+  }
+
+  .academy-image {
+    height: 450px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+@media (max-width: 500px) {
+  .nav > .btn {
+    display: none;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .nav {
+    min-height: 72px;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 23px;
+  }
+
+  .nav-links {
+    top: 72px;
+  }
+
+  .hero-content {
+    padding: 65px 7%;
+  }
+
+  .hero-image {
+    height: 430px;
+  }
+
+  .trust-strip {
+    gap: 17px 25px;
+    padding: 22px 5%;
+  }
+
+  .trust-strip span {
+    font-size: 9px;
+  }
+
+  .content-section {
+    padding: 75px 0;
+  }
+
+  .about-image {
+    height: 410px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card img {
+    height: 340px;
+  }
+
+  .portfolio-grid {
+    gap: 10px;
+  }
+
+  .portfolio-item {
+    height: 290px;
+  }
+
+  .portfolio-caption {
+    padding: 30px 10px 13px;
+  }
+
+  .portfolio-caption h3 {
+    font-size: 20px;
+  }
+
+  .academy-image {
+    height: 390px;
+  }
+
+  .hero-buttons .btn {
+  width: 100%;
+}
+}
+
+/* VM LOGO ROTATING EDGE LIGHT */
+.studio-credit a {
+  position: relative;
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 50%;
+  isolation: isolate;
+}
+
+.studio-credit img {
+  position: relative;
+  z-index: 1;
+}
+
+.studio-credit a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+  transparent 0deg 310deg,
+  #0055ff 325deg,
+  #00d9ff 338deg,
+  #0055ff 350deg,
+  transparent 360deg
+);
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 4px),
+    #000 calc(100% - 1px)
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 4px),
+    #000 calc(100% - 1px)
+  );
+  z-index: 0;
+  pointer-events: none;
+  animation: logoRing 1.8s linear infinite;
+}
+
+@keyframes logoRing {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+
+<header>
+  <div class="container nav">
+
+    <a href="#home" class="logo">
+      ALLURE
+      <span>MAKEOVERS</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">Our Story</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#academy">Academy</a>
+      <a href="#booking">Bookings</a>
+    </nav>
+
+    <a href="#booking" class="btn btn-gold">Book an Enquiry</a>
+
+  </div>
+</header>
+
+
+<main>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <div class="eyebrow">Abuja · Nigeria · Worldwide</div>
+
+    <h1>
+      Beauty,<br>
+      Beyond <span>Ordinary.</span>
+    </h1>
+
+    <p>
+      Discover the art of timeless beauty. From luminous bridal
+      transformations to effortless soft glam, every look is
+      thoughtfully created to celebrate your individuality.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#booking" class="btn btn-gold">Enquire for Your Date</a>
+      <a href="#portfolio" class="btn btn-outline">Explore Our Work</a>
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+    <img
+    src="https://images.pexels.com/photos/29258328/pexels-photo-29258328.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    srcset="
+        https://images.pexels.com/photos/29258328/pexels-photo-29258328.jpeg?auto=compress&cs=tinysrgb&w=480 480w,
+        https://images.pexels.com/photos/29258328/pexels-photo-29258328.jpeg?auto=compress&cs=tinysrgb&w=768 768w,
+        https://images.pexels.com/photos/29258328/pexels-photo-29258328.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w
+    "
+    sizes="(max-width: 850px) 100vw, 50vw"
+    alt="Nigerian bridal beauty inspiration"
+    loading="eager"
+    fetchpriority="high"
+>
+  </div>
+
+</section>
+
+
+<!-- TRUST STRIP -->
+
+<div class="trust-strip">
+
+  <span>Bridal Beauty</span>
+  <span>Soft Glam</span>
+  <span>Makeup Academy</span>
+  <span>Special Occasions</span>
+  <span>Destination Bookings</span>
+
+</div>
+
+
+<!-- ABOUT SECTION -->
+
+
+
+
+<section class="content-section" id="about">
+
+  <div class="container about-grid">
+
+    <div class="about-image">
+
+<img
+    src="https://images.pexels.com/photos/40252165/pexels-photo-40252165.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="Nigerian woman in elegant traditional beauty styling"
+    loading="lazy"
+>
+
+    </div>
+
+    <div class="about-content">
+
+      <div class="eyebrow">The Allure Experience</div>
+
+      <h2>
+        Where Beauty Meets
+        <em>Artistry.</em>
+      </h2>
+
+      <p>
+        At Allure Makeovers, beauty is more than makeup.
+        It is an expression of confidence, elegance and
+        individuality.
+      </p>
+
+      <p>
+        Our signature approach celebrates radiant skin,
+        beautifully blended tones and refined details.
+        Every transformation is designed to make you feel
+        confident, beautiful and unforgettable.
+      </p>
+
+      <div class="about-details">
+
+        <div>
+          <strong>01</strong>
+          <span>Personalised Glam</span>
+        </div>
+
+        <div>
+          <strong>02</strong>
+          <span>Timeless Beauty</span>
+        </div>
+
+      </div>
+
+      <a href="#booking" class="btn btn-gold">
+        Discover Your Look
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SERVICES SECTION -->
+
+<section class="content-section services" id="services">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div class="eyebrow">Our Signature Services</div>
+
+      <h2 class="section-title">
+        Beauty for Every Occasion
+      </h2>
+
+      <p class="section-description" style="margin-left:auto;margin-right:auto;">
+        Thoughtfully curated makeup experiences for your
+        most meaningful moments.
+      </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+
+      <!-- SERVICE ONE -->
+
+      <article class="service-card">
+
+        <img
+          src="https://images.pexels.com/photos/34049570/pexels-photo-34049570.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Bridal makeup inspiration"
+          loading="lazy"
+        >
+
+        <div class="service-card-content">
+
+          <h3>Bridal Glam</h3>
+
+          <p>
+            Elegant bridal transformations designed to
+            complement your beauty and make your special
+            day unforgettable.
+          </p>
+
+          <a href="#booking" class="text-link">
+            Enquire Now →
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- SERVICE TWO -->
+
+      <article class="service-card">
+
+        <img
+          src="https://images.pexels.com/photos/33951059/pexels-photo-33951059.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Professional soft glam makeup inspiration"
+          loading="lazy"
+        >
+
+        <div class="service-card-content">
+
+          <h3>Soft Glam</h3>
+
+          <p>
+            Radiant skin, beautifully blended tones and
+            refined details for events, celebrations and
+            everyday elegance.
+          </p>
+
+          <a href="#booking" class="text-link">
+            Enquire Now →
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- SERVICE THREE -->
+
+      <article class="service-card">
+
+        <img
+          src="https://images.pexels.com/photos/16809186/pexels-photo-16809186.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Luxury makeup beauty portrait"
+          loading="lazy"
+        >
+
+        <div class="service-card-content">
+
+          <h3>Special Occasions</h3>
+
+          <p>
+            Beautifully customised makeup for birthdays,
+            graduations, celebrations, portraits and
+            unforgettable appearances.
+          </p>
+
+          <a href="#booking" class="text-link">
+            Enquire Now →
+          </a>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+<!-- PORTFOLIO STYLING -->
+
+
+
+<!-- PORTFOLIO SECTION -->
+
+<section class="content-section" id="portfolio">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div class="eyebrow">A Gallery of Beauty</div>
+
+      <h2 class="section-title">
+        The Art of Looking Beautiful
+      </h2>
+
+      <p class="section-description" style="margin-left:auto;margin-right:auto;">
+        Discover beauty inspiration for your most special moments,
+        from elegant bridal styling to effortless soft glam.
+      </p>
+
+    </div>
+
+
+    <div class="portfolio-grid">
+
+
+      <!-- PORTFOLIO ONE -->
+
+      <div class="portfolio-item">
+
+        <img
+          src="https://images.pexels.com/photos/29258328/pexels-photo-29258328.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Bridal makeup inspiration"
+          loading="lazy"
+        >
+
+        <div class="portfolio-caption">
+          <span>01 / Bridal</span>
+          <h3>Timeless Bride</h3>
+        </div>
+
+      </div>
+
+
+      <!-- PORTFOLIO TWO -->
+
+      <div class="portfolio-item">
+
+        <img
+          src="https://images.pexels.com/photos/40252165/pexels-photo-40252165.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Traditional Nigerian beauty inspiration"
+          loading="lazy"
+        >
+
+        <div class="portfolio-caption">
+          <span>02 / Traditional</span>
+          <h3>Cultural Elegance</h3>
+        </div>
+
+      </div>
+
+
+      <!-- PORTFOLIO THREE -->
+
+      <div class="portfolio-item">
+
+        <img
+          src="https://images.pexels.com/photos/33951059/pexels-photo-33951059.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Soft glam makeup inspiration"
+          loading="lazy"
+        >
+
+        <div class="portfolio-caption">
+          <span>03 / Soft Glam</span>
+          <h3>Radiant Beauty</h3>
+        </div>
+
+      </div>
+
+
+      <!-- PORTFOLIO FOUR -->
+
+      <div class="portfolio-item">
+
+        <img
+          src="https://images.pexels.com/photos/16809186/pexels-photo-16809186.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Elegant makeup portrait"
+          loading="lazy"
+        >
+
+        <div class="portfolio-caption">
+          <span>04 / Editorial</span>
+          <h3>Modern Allure</h3>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <p class="portfolio-note">
+      Images are illustrative beauty inspiration and are not represented
+      as verified client work by Allure Makeovers.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- MAKEUP ACADEMY -->
+
+<section class="content-section academy" id="academy">
+
+  <div class="container academy-grid">
+
+    <div class="academy-content">
+
+      <div class="eyebrow">Learn the Artistry</div>
+
+      <h2>
+        Turn Your Passion Into Your Craft.
+      </h2>
+
+      <p>
+        Discover the techniques, creativity and confidence
+        behind professional makeup artistry.
+      </p>
+
+      <p>
+        Explore training opportunities designed for aspiring
+        makeup artists and beauty enthusiasts who want to
+        develop their skills.
+      </p>
+
+      <ul class="academy-list">
+
+        <li>Professional makeup techniques</li>
+
+        <li>Skin preparation and complexion matching</li>
+
+        <li>Blending, finishing and soft glam techniques</li>
+
+        <li>Beauty artistry and creative development</li>
+
+      </ul>
+
+      <a href="#booking" class="btn btn-gold">
+        Enquire About Training
+      </a>
+
+    </div>
+
+
+    <div class="academy-image">
+
+      <img
+        src="https://images.pexels.com/photos/34049570/pexels-photo-34049570.jpeg?auto=compress&cs=tinysrgb&w=800"
+        alt="Makeup artistry inspiration"
+        loading="lazy"
+      >
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- DESTINATION BOOKINGS -->
+
+<section class="content-section destination">
+
+  <div class="container destination-box">
+
+    <div class="destination-label">
+      Beauty Without Borders
+    </div>
+
+    <h2>
+      Your Special Day.<br>
+      Your Perfect Glam.
+    </h2>
+
+    <p>
+      Planning a wedding, celebration or special event?
+      Allure Makeovers welcomes enquiries for Abuja appointments
+      and destination makeup bookings.
+    </p>
+
+    <a href="#booking" class="btn btn-gold">
+      Plan Your Beauty Experience
+    </a>
+
+  </div>
+
+</section>
+<!-- BOOKING SECTION STYLING -->
+
+
+
+
+<!-- BOOKING SECTION -->
+
+<section class="content-section booking" id="booking">
+
+  <div class="container booking-grid">
+
+
+    <div class="booking-info">
+
+      <div class="eyebrow">Let's Create Something Beautiful</div>
+
+      <h2>
+        Your Beauty Experience Starts Here.
+      </h2>
+
+      <p>
+        Tell us about your upcoming occasion, bridal plans
+        or training interest. Share a few details and prepare
+        to begin your Allure experience.
+      </p>
+
+
+      <div class="contact-detail">
+
+        <span>Location</span>
+
+        <strong>Abuja, Nigeria</strong>
+
+      </div>
+
+
+      <div class="contact-detail">
+
+        <span>Appointments</span>
+
+        <strong>By Enquiry</strong>
+
+      </div>
+
+
+      <div class="contact-detail">
+
+        <span>Booking & Updates</span>
+
+        <strong>Instagram Direct Message</strong>
+
+      </div>
+
+    </div>
+
+
+    <!-- BOOKING FORM -->
+
+    <form class="booking-form" id="bookingForm">
+
+      <h3>Make an Enquiry</h3>
+
+      <p class="form-intro">
+        Complete the details below to prepare your booking enquiry.
+      </p>
+
+
+      <div class="form-row">
+
+        <div class="form-group">
+
+          <label for="fullName">Full Name</label>
+
+          <input
+            type="text"
+            id="fullName"
+            placeholder="Your full name"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="email">Email Address</label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Your email address"
+            required
+          >
+
+        </div>
+
+      </div>
+
+
+      <div class="form-row">
+
+        <div class="form-group">
+
+          <label for="service">Service Required</label>
+
+          <select id="service" required>
+
+            <option value="">Choose a service</option>
+
+            <option>Bridal Makeup</option>
+
+            <option>Soft Glam</option>
+
+            <option>Special Occasion Makeup</option>
+
+            <option>Makeup Training</option>
+
+            <option>Destination Booking</option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="location">Appointment Location</label>
+
+          <select id="location" required>
+
+            <option value="">Choose location</option>
+
+            <option>Studio Appointment</option>
+
+            <option>Home / Hotel in Abuja</option>
+
+            <option>Destination / Travel</option>
+
+            <option>Training Location</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+
+      <div class="form-row">
+
+        <div class="form-group">
+
+          <label for="eventDate">Event Date</label>
+
+          <input
+            type="date"
+            id="eventDate"
+            required
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="partySize">Number of People</label>
+
+          <select id="partySize">
+
+            <option>1 person</option>
+
+            <option>2 people</option>
+
+            <option>3–5 people</option>
+
+            <option>6–10 people</option>
+
+            <option>More than 10</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="message">Tell Us More</label>
+
+        <textarea
+          id="message"
+          placeholder="Describe your occasion, preferred look or training interest..."
+        ></textarea>
+
+      </div>
+
+
+      <button type="submit" class="btn btn-gold">
+        Prepare My Enquiry
+      </button>
+
+
+      <p class="form-notice">
+        This demonstration form prepares an enquiry message for you
+        to send through Instagram. It does not directly submit a
+        booking to Allure Makeovers.
+      </p>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- INSTAGRAM CALL TO ACTION -->
+
+<section class="instagram-cta">
+
+  <div class="eyebrow">Stay Connected</div>
+
+  <h2>Follow the Allure Journey.</h2>
+
+  <p>
+    Discover beauty inspiration, makeup artistry and
+    updates from Allure Makeovers.
+  </p>
+
+  <a
+    href="https://www.instagram.com/allure_makeoverss/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn btn-gold"
+  >
+    Visit Instagram
+  </a>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+
+      <div>
+
+        <div class="footer-brand">
+          ALLURE <span>MAKEOVERS</span>
+        </div>
+
+        <p>
+          The art of timeless beauty.
+          Celebrating individuality through elegant makeup artistry
+          and unforgettable beauty experiences.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h4>Explore</h4>
+
+        <ul class="footer-links">
+
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#about">Our Story</a></li>
+
+          <li><a href="#services">Services</a></li>
+
+          <li><a href="#portfolio">Portfolio</a></li>
+
+          <li><a href="#academy">Makeup Academy</a></li>
+
+        </ul>
+
+      </div>
+
+
+      <div>
+
+        <h4>Get in Touch</h4>
+
+        <ul class="footer-links">
+
+          <li><a href="#booking">Booking Enquiries</a></li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/allure_makeoverss/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+
+          <li><a href="#booking">Destination Bookings</a></li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      © <span id="currentYear"></span> Allure Makeovers.
+
+      <br>
+
+      <div class="studio-credit">
+  <a href="https://vmwebstudio-ng.netlify.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://vmwebstudio-ng.netlify.app/images/logo.webp"
+         alt="VM Web Studio" width="40" height="40"
+         loading="lazy" decoding="async">
+  </a>
+  <span>Concept crafted by <strong>VM Web Studio</strong></span>
+</div>
+
+      <br>
+
+      Images are illustrative and do not represent verified client work.
+
+    </div>
+
+  </div>
+
+</footer>
+<!-- JAVASCRIPT -->
+
+<script>
+
+/* MOBILE NAVIGATION */
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", function () {
+
+  navLinks.classList.toggle("active");
+
+  const isOpen = navLinks.classList.contains("active");
+
+  menuToggle.textContent = isOpen ? "✕" : "☰";
+
+  menuToggle.setAttribute("aria-expanded", isOpen);
+
+});
+
+
+/* CLOSE MOBILE MENU AFTER CLICKING A LINK */
+
+document.querySelectorAll(".nav-links a").forEach(function(link) {
+
+  link.addEventListener("click", function() {
+
+    navLinks.classList.remove("active");
+    menuToggle.textContent = "☰";
+
+  });
+
+});
+
+
+/* CURRENT YEAR */
+
+document.getElementById("currentYear").textContent =
+  new Date().getFullYear();
+
+
+/* BOOKING ENQUIRY FORM */
+
+const bookingForm = document.getElementById("bookingForm");
+
+bookingForm.addEventListener("submit", function(event) {
+
+  event.preventDefault();
+
+  const fullName = document.getElementById("fullName").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const service = document.getElementById("service").value;
+  const location = document.getElementById("location").value;
+  const eventDate = document.getElementById("eventDate").value;
+  const partySize = document.getElementById("partySize").value;
+  const message = document.getElementById("message").value.trim();
+
+  const enquiry = `
+ALLURE MAKEOVERS — BOOKING ENQUIRY
+
+Name: ${fullName}
+Email: ${email}
+Service: ${service}
+Location: ${location}
+Event Date: ${eventDate}
+Number of People: ${partySize}
+
+Additional Information:
+${message}
+
+Prepared through the Allure Makeovers website concept.
+  `.trim();
+
+  if (navigator.share) {
+
+    navigator.share({
+      title: "Allure Makeovers Booking Enquiry",
+      text: enquiry
+    }).catch(function(error) {
+
+      if (error.name !== "AbortError") {
+        copyEnquiry(enquiry);
+      }
+
+    });
+
+  } else {
+
+    copyEnquiry(enquiry);
+
+  }
+
+});
+
+
+/* COPY ENQUIRY */
+
+function copyEnquiry(enquiry) {
+
+  if (navigator.clipboard && window.isSecureContext) {
+
+    navigator.clipboard.writeText(enquiry)
+      .then(function() {
+
+        alert(
+          "Your enquiry has been copied. You can now paste it into an Instagram DM."
+        );
+
+      })
+      .catch(function() {
+
+        alert(
+          "Please select and copy your enquiry manually."
+        );
+
+      });
+
+  } else {
+
+    alert(
+      "Your browser does not support automatic copying. Please try sharing your enquiry."
+    );
+
+  }
+
+}
+
+
+/* PREVENT PAST EVENT DATES */
+
+const eventDateInput = document.getElementById("eventDate");
+
+const today = new Date();
+
+const localDate =
+  today.getFullYear() + "-" +
+  String(today.getMonth() + 1).padStart(2, "0") + "-" +
+  String(today.getDate()).padStart(2, "0");
+
+eventDateInput.min = localDate;
+
+</script>
+
+
+<!-- MOBILE RESPONSIVENESS -->
+
+
+
+</main>
+
+</body>
+</html>
